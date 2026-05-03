@@ -1,0 +1,11 @@
+# Example 1-13. Calculating compound interest in Python
+
+from math import exp
+
+p = 100
+r = .20
+t = 2.0
+n = 12
+
+a = p * (1 + (r/n))**(n * t)
+print(a)
